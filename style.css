@@ -52,6 +52,7 @@ footer {
   padding: 15px;
   background-color: #1f2937;
   color: white;
+}
 
   .project-card {
   border: 1px solid #d1d5db;
@@ -63,5 +64,4 @@ footer {
 
 .project-card h3 {
   margin-top: 0;
-}
 }
