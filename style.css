@@ -75,3 +75,12 @@ footer {
 .project-card h3 {
   margin-top: 0;
 }
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
