@@ -1,19 +1,17 @@
 # Sales Forecasting Pipeline
 
 ## Overview
-This project focuses on forecasting future sales using historical retail data. The goal is to move beyond descriptive analysis and build a predictive workflow that can support planning decisions such as inventory management and demand forecasting.
+This project demonstrates a basic sales forecasting workflow using generated historical sales data. The script creates a time-based dataset, engineers date features, trains a regression model, and evaluates forecast accuracy.
 
-## Problem
-Retail businesses need to anticipate demand to avoid stockouts, overstocking, and inefficient planning. Sales patterns are often influenced by time, seasonality, and other variables that are not always obvious in raw data.
-
-## Approach
-The project includes data cleaning, time-based feature engineering, regression modeling, and model evaluation. Model performance is assessed using RMSE to measure how closely predictions align with actual sales values.
+## How to Run
+```bash
+python sales_forecasting_demo.py
+```
 
 ## Tools
 - Python
 - pandas
 - scikit-learn
-- Jupyter Notebook
 
-## Outcome
-This project demonstrates how raw sales data can be transformed into a forecasting workflow that supports practical business planning and demand analysis.
+## Output
+The script prints model performance using RMSE and displays a small comparison of actual versus predicted sales.
