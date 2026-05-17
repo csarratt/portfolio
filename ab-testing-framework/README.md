@@ -1,18 +1,17 @@
 # A/B Testing and Experimentation Framework
 
 ## Overview
-This project focuses on experimentation analysis and A/B testing workflows used to evaluate digital experience changes through controlled testing methodologies.
+This project demonstrates a basic A/B test analysis workflow. The script compares control and variant conversion rates, calculates lift, and performs a two-proportion z-test.
 
-## Problem
-Organizations frequently implement digital changes without fully understanding whether those changes improve user behavior or business outcomes. Controlled experimentation helps reduce uncertainty and supports data-driven decisions.
-
-## Approach
-The project evaluates experiments using control and variant groups, conversion metrics, lift analysis, sample size validation, and statistical significance testing. The workflow also considers attribution consistency and reporting quality.
+## How to Run
+```bash
+python ab_testing_analysis_demo.py
+```
 
 ## Tools
-- Optimizely
-- Adobe Analytics
-- Statistical analysis
+- Python
+- statsmodels
+- pandas
 
-## Outcome
-This project demonstrates how experimentation frameworks can improve confidence in production decisions and support measurable optimization efforts.
+## Output
+The script prints conversion rates, lift, z-statistic, p-value, and a recommendation based on statistical significance.
