@@ -1,19 +1,17 @@
 # Generative AI Invoice Extraction
 
 ## Overview
-This project explores how generative AI can extract structured information from unstructured invoice documents using prompt engineering and output formatting workflows.
+This project demonstrates a lightweight invoice extraction workflow. The script parses sample invoice text and converts key fields into structured JSON.
 
-## Problem
-Invoice documents often contain inconsistent layouts and formatting that make automated extraction difficult using traditional rule-based systems.
-
-## Approach
-The workflow uses prompt engineering, JSON formatting, and output validation techniques to convert invoice text into structured fields suitable for downstream processing.
+## How to Run
+```bash
+python invoice_extraction_demo.py
+```
 
 ## Tools
-- OpenAI API
 - Python
-- JSON parsing
-- Prompt engineering
+- JSON
+- Regular expressions
 
-## Outcome
-This project demonstrates how generative AI can support document processing workflows and reduce manual review effort for structured data extraction tasks.
+## Output
+The script prints structured invoice fields including invoice number, date, vendor, and total.
