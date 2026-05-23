@@ -46,10 +46,27 @@ The project also showed that fine-tuning workflows require careful dataset forma
 - The project was designed as an applied prototype rather than a production decision system
 
 ## Repository Contents
-- Streamlit application file (`app.py`)
+- `app.py` - Streamlit application for entering A/B test metrics and generating structured AI-assisted analysis
+- `fine-tuning-notebook.ipynb` - Jupyter notebook documenting dataset creation, fine-tuning workflow, troubleshooting, validation, and model comparison
 - Fine-tuning dataset files
 - Screenshots of the running application
 - Supporting project documentation
+
+## Notebook Highlights
+The supporting notebook documents the complete fine-tuning workflow used for this project, including dataset preparation, JSONL formatting, OpenAI file uploads, fine-tuning job creation, troubleshooting, validation, and evaluation.
+
+The notebook includes:
+- Synthetic A/B testing training dataset creation
+- Validation dataset correction after formatting failures
+- Resolution of insufficient training example errors
+- Expansion of the training dataset from 5 to 12 examples
+- Successful fine-tuning of:
+  `ft:gpt-4o-mini-2024-07-18:personal:experiment-analysis-v3:DbSPQHKQ`
+- Comparison between baseline and fine-tuned model outputs
+- Evaluation of statistically significant and non-significant experiment scenarios
+- Discussion of training loss, validation loss, and implementation limitations
+
+The evaluation showed that prompt engineering alone already produced strong baseline interpretations. Fine-tuning primarily improved output consistency, structure, and predictability rather than core reasoning accuracy.
 
 ## Application Screenshots
 
