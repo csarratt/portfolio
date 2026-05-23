@@ -51,6 +51,28 @@ The project also showed that fine-tuning workflows require careful dataset forma
 - Screenshots of the running application
 - Supporting project documentation
 
+## Application Screenshots
+
+### Significant Test Scenario
+Main application interface using statistically significant experiment results.
+
+![Main Interface - Significant Test](screenshots/main-interface-significant-test.png)
+
+Generated structured AI-assisted recommendation output.
+
+![Significant Test Output](screenshots/significant-test-output.png)
+
+---
+
+### Non-Significant Test Scenario
+Main application interface using a non-significant experiment result.
+
+![Main Interface - Non-Significant Test](screenshots/main-interface-nonsignificant-test.png)
+
+Generated recommendation demonstrating cautious interpretation and non-deployment guidance.
+
+![Non-Significant Test Output](screenshots/nonsignificant-test-output.png)
+
 ## Course Context
 Bellevue University  
 DSC670 - Advanced Uses of Generative AI
